@@ -1,0 +1,39 @@
+.game-container {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    width: 100vw;  /* 100% of the viewport width */
+    height: 100vh;  /* 100% of the viewport height */
+    background-repeat: repeat;  /* this will make the image repeat in a pattern */
+    background-size: contain;  /* this will make sure the entire image is visible, adjust as needed */
+    background-position: center center;  /* this centers the image */
+    background-image: url('fase1.jpg');  /* replace with the path to your image */
+}
+
+#gameImage {
+    width: auto; 
+    max-width: 80%; /* restricts the width to 80% of its container */
+    max-height: 400px; /* restricts the height to 400px, adjust as needed */
+    margin: 0 auto; /* centers the image horizontally */
+    display: block;
+    margin-bottom: 20px;
+}
+
+#answerInput, button, #feedback {
+    margin: 10px;
+    z-index: 1;  /* To ensure these elements appear above the background */
+}
+
+#feedback {
+    color: red;
+    margin-top: 20px;
+}
