@@ -41,7 +41,10 @@ const questions = [
         image: 'fase10.jpg',
         answer: 'olaria'
     },
-    
+    {
+        image: 'fase11.jpg',
+        answer: 'fim'
+    }
 ];
 
 function checkAnswer() {
