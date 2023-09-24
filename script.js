@@ -7,7 +7,7 @@ const questions = [
     },
     {
         image: 'fase2.jpg',
-        answer: 'santosdumond'
+        answer: 'santosdumont'
     },
     {
         image: 'fase3.jpeg',
